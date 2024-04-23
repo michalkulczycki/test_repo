@@ -1,34 +1,4 @@
 {
-    "name": "example-project",
-    "version": "1.0.0",
-    "description": "An example project to demonstrate GitHub Actions integration",
-    "main": "index.js",
-    "scripts": {
-      "test": "jest",
-      "build": "webpack --config webpack.config.js",
-      "deploy": "node deploy.js",
-      "generate-docs": "doxygen Doxyfile",
-      "lint": "eslint ."
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/yourusername/example-project.git"
-    },
-    "author": "Your Name",
-    "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/yourusername/example-project/issues"
-    },
-    "homepage": "https://github.com/yourusername/example-project#readme",
-    "devDependencies": {
-      "jest": "^26.6.0",
-      "webpack": "^4.44.2",
-      "eslint": "^7.12.1",
-      "actions": "^5.0.0",
-      "doxygen": "^1.8.20"
-    },
-    "dependencies": {
-      "express": "^4.17.1"
-    }
-  }
-  
+    "name":"simple",
+    "main": "app.js"
+}

@@ -3,13 +3,11 @@ on: [push, pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
+    container : node:20
     steps:
+    - run : node --version
+    - run : npm --version
     - uses: actions/checkout@v3
-    - name: Setup Node
-      uses: actions/setup-node@v3
-      with:
-        node-version: '20'
-    - name: Install dependencies
-      run: npm install
-    - name: Run tests
+    - run: npm install
+    - run: node app.js
       run: npm test
