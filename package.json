@@ -24,7 +24,7 @@
       "jest": "^26.6.0",
       "webpack": "^4.44.2",
       "eslint": "^7.12.1",
-      "actions/github-script": "^5.0.0",
+      "actions": "^5.0.0",
       "doxygen": "^1.8.20"
     },
     "dependencies": {
